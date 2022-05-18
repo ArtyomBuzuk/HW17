@@ -6,25 +6,23 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/ic_background2screen" />
+        android:background="@drawable/ic_background5screen" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
-        android:fontFamily="@font/red_hat_display"
+        android:fontFamily="@font/red_hat_display_bold"
         android:text="Spiice"
-        android:textSize="32sp"
-        android:textStyle="bold" />
+        android:textSize="32sp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="181dp"
-        android:background="@drawable/ic_illustration" />
-
+        android:layout_marginTop="138dp"
+        android:background="@drawable/ic_illustration5screen" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,15 +30,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="624dp"
         android:fontFamily="@font/public_sans"
-        android:text="Find projects from companies \n everywhere in the word" />
+        android:text="Work hard and level up!"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="7sp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="673dp"
-        android:background="@drawable/ic_diaporama2screen"
-
-        />
+        android:background="@drawable/ic_diaporama5screen" />
 
 </RelativeLayout>

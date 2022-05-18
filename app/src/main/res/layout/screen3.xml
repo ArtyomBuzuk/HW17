@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    >
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/ic_background2screen" />
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_background3screen"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -22,25 +23,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="181dp"
-        android:background="@drawable/ic_illustration" />
-
+        android:layout_marginTop="148dp"
+        android:background="@drawable/ic_illustration3creen" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:text="Make money while working \n on awesome projects"
+        android:textSize="18sp"
         android:layout_marginTop="624dp"
         android:fontFamily="@font/public_sans"
-        android:text="Find projects from companies \n everywhere in the word" />
+        />
 
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="7sp"
+        android:layout_height="7dp"
+        android:background="@drawable/ic_diaporama3screen"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="673dp"
-        android:background="@drawable/ic_diaporama2screen"
-
         />
 
 </RelativeLayout>

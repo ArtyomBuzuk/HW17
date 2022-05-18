@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background2screen">
+
+    <TextView
+        android:layout_width="88dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/red_hat_display"
+        android:text="Spiice"
+        android:textSize="32dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="370.19dp"
+        android:layout_height="370.19dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="181dp"
+        android:background="@drawable/ic_illustration"/>
+
+
+<TextView
+        android:layout_width="253dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="643dp"
+        android:text="Find projects from companies \n everywhere in the word"/>
+
+
+</LinearLayout>

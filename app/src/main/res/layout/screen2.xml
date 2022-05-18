@@ -6,39 +6,41 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/ic_background1" />
+        android:background="@drawable/ic_background2screen" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="218dp"
+        android:layout_marginTop="48dp"
         android:fontFamily="@font/red_hat_display"
         android:text="Spiice"
-        android:textColor="@color/black"
-        android:textSize="96sp" />
+        android:textSize="32sp"
+        android:textStyle="bold" />
 
-    <Button
-        android:id="@+id/buttonScreen1"
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="519dp"
-        android:background="@drawable/ic_background2"
-        android:fontFamily="@font/public_sans"
-        android:text="Discover the platform"
-        android:textAllCaps="false"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp" />
+        android:layout_marginTop="181dp"
+        android:background="@drawable/ic_illustration" />
+
 
     <TextView
-        android:id="@+id/textViewScreen1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="580dp"
-        android:fontFamily="@font/public_sans_thin"
-        android:text="You have an account ? Log-in"
-        android:textSize="21.15sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="624dp"
+        android:fontFamily="@font/public_sans"
+        android:text="Find projects from companies \n everywhere in the word" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="7sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="673dp"
+        android:background="@drawable/ic_diaporama2screen"
+
+        />
+
 </RelativeLayout>
